@@ -13,7 +13,7 @@ const Header = () => {
   <div class="container-fluid">
                           
                                 
-                                <Link class="navbar-brand" to={'./'} >Navbar</Link>
+                                <Link class="navbar-brand" to={'/'} >Navbar</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,22 +24,22 @@ const Header = () => {
         </li>
         <li class="nav-item">
                                           
-                                    <Link class="nav-link" to={'./review'} >Reviews</Link>     
+                                    <Link class="nav-link" to={'/review'} >Reviews</Link>     
                                             
         </li>
         <li class="nav-item">
                                             
                                             
-                                                         <Link class="nav-link" to={'./dashboard'} >Dashboard</Link>
+                                                         <Link class="nav-link" to={'/dashboard'} >Dashboard</Link>
         </li>
         <li class="nav-item">
                                         
                                             
-                                                         <Link class="nav-link" to={'./review'} >Reviews</Link>
+                                                         <Link class="nav-link" to={'/blogs'} >Blogs</Link>
         </li>
         <li class="nav-item">
                                            
-                                                         <Link class="nav-link" to={'./about'} >About</Link>
+                                                         <Link class="nav-link" to={'/about'} >About</Link>
         </li>
        
       
