@@ -14,7 +14,7 @@ const Footers = () => {
 
                         <h6>Hublot Watch Information</h6>
                         <hr />
-                        <p>Hublot was also the first watch to ever use a natural rubber strap. The reason that a Hublot is so special is because of its design. The rubber of the bands complements and contrasts the dials of the watch face; the band is made to conform to any wearer's wrist, making it both comfortable and weightless</p>
+                        <p>Hublot  was also the first watch to ever use a natural rubber strap. The reason that a Hublot is so special is because of its design. The rubber of the bands complements and contrasts the dials of the watch face; the band is made to conform to any wearer's wrist, making it both comfortable and weightless</p>
 
                     </div>
 
