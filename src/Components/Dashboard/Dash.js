@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dash = () => {
 const data=[
@@ -44,7 +44,7 @@ const data=[
 
     return (
 
-        <div>
+        <div className='my-5'>
     <LineChart width={800} height={500} data={data}>
 
         <Line dataKey={'investment'}> </Line>
@@ -67,7 +67,11 @@ const data=[
             label
           />
           <Tooltip/>
-        </PieChart>
+            </PieChart>
+            
+             <BarChart width={150} height={40} data={data}>
+          <Bar dataKey="investment" fill="#8884d8" />
+        </BarChart>
 
         </div>
         

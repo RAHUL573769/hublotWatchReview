@@ -38,7 +38,7 @@ const Home = () => {
 <img src={Watch} alt="" />
                         </div>
                     </div>
-                   <Link className='btn btn-primary' to={'/dashboard'}> Click Here to See Live Analysis of Our Hublot Watches </Link>
+                   <Link className='btn btn-primary my-4' to={'/dashboard'}> Click Here to See Live Analysis of Our Hublot Watches </Link>
                 </div>  
 
 
@@ -50,7 +50,7 @@ const Home = () => {
             {/* CustomerReview (3) */}
 
 
-            <section className='section bg-light border-top'>
+            <section className='section bg-light border-top my-4'>
 
                 <div className='container'>
                     <div className="row">
