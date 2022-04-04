@@ -16,7 +16,8 @@ const Home = () => {
                         <div className="col-md-6">
 
                             <h1>Buy Our New Hublot Watches</h1>
-
+                            <h4>Our Hublot Watches are best </h4>
+                            <h4>in the world</h4>
 
                             
                         </div>
@@ -25,13 +26,21 @@ const Home = () => {
 
 <img src={Watch} alt="" />
                         </div>
-                </div>
+                    </div>
+                    <button className='btn btn-primary'>Show Live Prgress</button>
                 </div>  
 
 
 
 
-        </section>
+            </section>
+            
+            <section>
+
+
+
+                
+            </section>
     
         </div>
     );
