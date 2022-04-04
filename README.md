@@ -2,7 +2,7 @@
 
 Live Link:
 
-## Available Scripts
+*Technologies Used:
 
 In the project directory, you can run:
 
