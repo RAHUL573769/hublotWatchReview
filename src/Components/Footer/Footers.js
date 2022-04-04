@@ -28,6 +28,16 @@ const Footers = () => {
                         <div>                                                         <Link class="nav-link" to={'/blogs'} >Blogs</Link>
 </div>
                     </div>
+
+
+                    <div className="col-md-4">
+                        <h6>Contact Information</h6>
+                        <div className='text-white mb-1'>#45,Dhanmondhi Road,Dhaka,Bangladesh</div>
+                        <div className='text-white mb-1'>+9123242422</div>
+                        <div className='text-white mb-1'>+880163732838</div>
+                        <div className='text-white mb-1'>email@gmail.com</div>
+
+                    </div>
                 </div>
 </div>
 
