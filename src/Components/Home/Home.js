@@ -38,7 +38,7 @@ const Home = () => {
 <img src={Watch} alt="" />
                         </div>
                     </div>
-                    <button className='btn btn-primary'>Show Live Prgress</button>
+                   <Link className='btn btn-primary' to={'/dashboard'}> Click Here to See Live Analysis of Our Hublot Watches </Link>
                 </div>  
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Final = (props) => {
 
-    console.log(props.product)
+
 
     const { id, description, name, ratings } = props.product;
 
