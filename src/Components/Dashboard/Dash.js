@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dash = () => {
 const data=[
@@ -43,8 +43,9 @@ const data=[
 
 
     return (
-        
-        <LineChart width={800} height={500} data={data}>
+
+        <div>
+    <LineChart width={800} height={500} data={data}>
 
         <Line dataKey={'investment'}> </Line>
         <Line dataKey={'revenue'}> </Line>
@@ -53,7 +54,27 @@ const data=[
 
           <XAxis dataKey={'month'}></XAxis>
           <YAxis ></YAxis>
-       </LineChart> 
+            </LineChart> 
+     <PieChart width={400} height={400}>
+          <Pie
+            dataKey="revenue"
+            isAnimationActive={false}
+            data={data}
+            cx="50%"
+            cy="50%"
+            outerRadius={80}
+            fill="#8884d8"
+            label
+          />
+          <Tooltip/>
+        </PieChart>
+
+        </div>
+        
+    
+        
+       
+
       
     );
 };
