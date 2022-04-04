@@ -7,6 +7,7 @@ import ratingsData from "../../fakeData/fakeData"
 
 import './Home.css'
 import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -62,7 +63,7 @@ const Home = () => {
                  {
                               
                                 watches.slice(0,3).map((watch) => (
-                                    
+                                 
                                     <p>Name :{watch.name}
                                     
                                         <p>   Id:{watch.id}</p>
@@ -82,7 +83,7 @@ const Home = () => {
                         
                         </div>
                         
-                        <button className='btb btb-lg'>See All Reviews</button>
+                   <Link className='btn btn-primary' to={'/review'}> Click Here to See Remaining Reviews</Link>
                   </div>
 </div>
 
