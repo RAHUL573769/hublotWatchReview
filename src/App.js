@@ -6,6 +6,7 @@ import Blogs from './Components/Blogs/Blogs';
 import Dash from './Components/Dashboard/Dash';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import Error from './Components/NotFound/Error';
 import Review from './Components/Review/Review';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/dashboard' element={<Dash></Dash>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='*' element={<Error></Error>}></Route>
       </Routes>
     </div>
   );
