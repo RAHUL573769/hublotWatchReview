@@ -4,6 +4,7 @@ import './App.css';
 import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 import Dash from './Components/Dashboard/Dash';
+import Footers from './Components/Footer/Footers';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Error from './Components/NotFound/Error';
@@ -26,6 +27,8 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
+
+      <Footers></Footers>
     </div>
   );
 }
