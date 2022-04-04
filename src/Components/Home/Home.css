@@ -5,3 +5,16 @@ section img{
 .homepart{
     padding-top: 50px;
 }
+
+
+.underline{
+  height: 4px;
+  width: 4rem;
+  background-color: orange;
+}
+.homecard{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+
