@@ -2,7 +2,7 @@
 
 Live Link:
 
-*Technologies Used:
+* Technologies Used:
 
 In the project directory, you can run:
 
