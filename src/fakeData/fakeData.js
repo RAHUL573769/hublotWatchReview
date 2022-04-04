@@ -11,7 +11,7 @@ var ratingsData = [
     {
     
         id: 2,
-        name: 'Paulina Johnson',
+        name: 'Rohit',
         description: "Very Nice Product to wear",
         ratings:'4.5/5'
         
@@ -19,7 +19,7 @@ var ratingsData = [
     {
     
         id: 3,
-        name: ' Johnson',
+        name: ' Rony',
         description: "Very Nice Products on your hand",
         ratings:'4/5'
         
@@ -27,7 +27,7 @@ var ratingsData = [
     {
     
         id: 4,
-        name: 'Paul ',
+        name: ' Koushik',
         description: " Nice Product",
         ratings:'5/5'
         
@@ -43,7 +43,7 @@ var ratingsData = [
     {
     
         id: 6,
-        name: 'Paul Johnson',
+        name: 'Aparup',
         description: "Very Nice Product",
         ratings:'5/5'
         
@@ -51,7 +51,7 @@ var ratingsData = [
     {
     
         id: 7,
-        name: 'Paul Johnson',
+        name: 'Safayet',
         description: "Very Nice Product",
         ratings:'3.5/5'
         
@@ -59,7 +59,7 @@ var ratingsData = [
     {
     
         id: 8,
-        name: 'Paul Johnson',
+        name: 'Enayet',
         description: "Very Nice Product",
         ratings:'2.5/5'
         
@@ -67,7 +67,7 @@ var ratingsData = [
     {
     
         id: 9,
-        name: 'Paul Johnson',
+        name: 'Ratan',
         description: "Very Nice Product",
         ratings:'3.5/5'
         

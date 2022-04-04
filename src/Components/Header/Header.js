@@ -13,7 +13,7 @@ const Header = () => {
   <div class="container-fluid">
                           
                                 
-                                <Link class="navbar-brand" to={'/'} >Navbar</Link>
+                                <Link class="navbar-brand" to={'/'} > Hublot Watch</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
