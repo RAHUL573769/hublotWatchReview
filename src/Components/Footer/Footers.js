@@ -21,11 +21,11 @@ const Footers = () => {
                     <div className="col-md-4">
 
                         <h6>Quick Links</h6>
-                        <div> <Link to={'/'} > Home</Link></div>
+                        <div> <Link class="nav-link" to={'/'} > Home</Link></div>
                         <div>        <Link class="nav-link" to={'/review'} >Reviews</Link>   </div>
                         <div> <Link class="nav-link" to={'/dashboard'} >Dashboard</Link></div>
 
-                        <div>                                                         <Link class="nav-link" to={'/blogs'} >Blogs</Link>
+                        <div>          <Link class="nav-link" to={'/blogs'} >Blogs</Link>
 </div>
                     </div>
 
