@@ -7,7 +7,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
-            <section>
+            <section className='homepart'>
                 <div className="container">
                 
                     <div className="row">
@@ -15,7 +15,10 @@ const Home = () => {
 
                         <div className="col-md-6">
 
-                            <h1>Home</h1>
+                            <h1>Buy Our New Hublot Watches</h1>
+
+
+                            
                         </div>
 
                         <div className="col-md-6 img-fluid ">
